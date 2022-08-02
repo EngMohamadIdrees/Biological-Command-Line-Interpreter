@@ -10,6 +10,9 @@ Your program should call the correct function in your code, that correspond to t
 
 ## Commands Description
 Usage gc seq
+
 Parameters seq : a string represents the sequence
+
 Description This command takes a seq as a string and returns the gc percentage of it.
+
 Sample run gc AGCAT
