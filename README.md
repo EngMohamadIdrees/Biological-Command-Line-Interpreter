@@ -7,3 +7,9 @@ python myfile.py command_name parameter_1 parameter_2 –o option_1 –x option_
 You can see that the command can is divided into two sections the first one is your program itself as an argument to python to be parsed and interpreted. The second part is the command your program shall consume and parse to be executed.
 The parsing step should be done using getopt functionality to identify the command to be execute, get each argument and each option to be execute the command.
 Your program should call the correct function in your code, that correspond to the given command, and pass it the given parameters needed to execute this command. E.g. calc_gc(args[1])
+
+## Commands Description
+Usage gc seq
+Parameters seq : a string represents the sequence
+Description This command takes a seq as a string and returns the gc percentage of it.
+Sample run gc AGCAT
