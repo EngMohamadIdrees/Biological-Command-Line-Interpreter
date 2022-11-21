@@ -99,3 +99,5 @@ Your program should call the correct function in your code, that correspond to t
 - *Description* : `This command converts the input genbank file with multiple records onto a fasta formatted file. The output is to be written in a different output fasta file.`
 - *Sample run* : ` convert_to_fasta “ls-orchid.gbk”`
 
+## Credits
+[EngMohamadIdrees](https://github.com/EngMohamadIdrees) -[Tarek Idrees](https://github.com/TarekIdrees) - [Mohamed Mahmoud](https://github.com/Thesnak)
